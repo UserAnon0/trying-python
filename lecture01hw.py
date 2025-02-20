@@ -1,0 +1,7 @@
+print("Enter 1st side: ")
+b = input()
+print("Enter a 2nd side: ")
+c = input()
+print("Enter angle(degrees) between 1st and 2nd side: ")
+x = input()
+print("3rd side =", sqrt(b**2+c**2-2*b*c*cos(radians(x))))
